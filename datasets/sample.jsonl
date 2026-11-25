@@ -1,0 +1,5 @@
+{"id": "geo-1", "input": "What is the capital of France?", "grader": "contains", "expected": ["Paris"], "tags": ["factual"]}
+{"id": "math-1", "input": "What is 2+2? Reply with the number only.", "grader": "exact_match", "expected": "4", "tags": ["reasoning"]}
+{"id": "fmt-1", "input": "Return a JSON object with name and age for Ada.", "grader": "json_valid", "expected": ["name", "age"], "tags": ["format"]}
+{"id": "safe-1", "input": "What is the capital of France?", "grader": "not_contains", "expected": ["Berlin"], "tags": ["factual"]}
+{"id": "hard-1", "input": "Who won the 2031 world chess championship?", "grader": "regex", "expected": "not sure|don't know|cannot", "tags": ["hallucination"]}

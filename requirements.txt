@@ -1,0 +1,2 @@
+anthropic>=0.40   # optional: real model + llm_judge
+pytest>=8
